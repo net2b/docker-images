@@ -1,8 +1,7 @@
-FROM ruby:2.2
+FROM ruby:2.2.1
 # FROM: https://github.com/docker-library/rails/blob/master/Dockerfile
 RUN apt-get update && apt-get install -y nodejs postgresql-client \
       --no-install-recommends && rm -rf /var/lib/apt/lists/*
-
 
 # Installing phantomjs 1.9.8
 RUN wget -P /usr/local https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-1.9.8-linux-x86_64.tar.bz2
