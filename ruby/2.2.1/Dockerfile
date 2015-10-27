@@ -1,4 +1,4 @@
-FROM ruby:2.1.5
+FROM ruby:2.2.1
 
 # FROM: https://github.com/docker-library/rails/blob/master/Dockerfile
 RUN apt-get update && apt-get install -y nodejs postgresql-client \

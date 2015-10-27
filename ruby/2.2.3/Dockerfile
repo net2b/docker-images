@@ -10,5 +10,4 @@ RUN tar xjf /usr/local/phantomjs-1.9.8-linux-x86_64.tar.bz2 --directory=/usr/loc
 RUN rm -f /usr/local/phantomjs-1.9.8-linux-x86_64.tar.bz2
 ENV PHANTOMJS_PATH /usr/local/phantomjs-1.9.8-linux-x86_64/bin/
 
-RUN mkdir /cache
 RUN mkdir /app
